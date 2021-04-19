@@ -1,4 +1,35 @@
-1//I am a huge cyber security conference that run every year in three places : San Francisco, Singapore and Lately AbuDhabi. Who am I ? No spaces in answering:  ---RSAConference---
-2//I am a cyber security conference that run in August every year in Las Vegas. I am the largest gathering for Hackers in the whole world. No Credit cards, no online booking , Only Cash allowed . Who am I ?: ---defcon---
-3//I will lock your machine screen or files till you pay me. Who am i ?: ---Ransomware---
-4//True or False , htmlentities ( convert special characters to its html entity ) can't be exploited to run XSS payload ?: ---False---
+1//I am a huge cyber security conference that run every year in three places : San Francisco, Singapore and Lately AbuDhabi. Who am I ? No spaces in answering: 
+   ---RSAConference--- 
+   
+2//I am a cyber security conference that run in August every year in Las Vegas. I am the largest gathering for Hackers in the whole world. No Credit cards, no online booking , Only Cash allowed . Who am I ?: 
+   ---defcon---
+   
+3//I will lock your machine screen or files till you pay me. Who am i ?: 
+   ---Ransomware---
+   
+4//True or False , htmlentities ( convert special characters to its html entity ) can't be exploited to run XSS payload ?: 
+   ---False---
+   
+5//I have founded two of the most famous Cyber Security conferences across the globe in Las Vegas, USA. I am not The Dark Knight. I am The DarK--------? 
+   ---Tangent---         ;"you must know that "Jeff Moss, also known as Dark Tangent, (born January 1, 1975) is an American hacker, computer and internet security expert who founded the Black Hat and DEF CON computer security conferences."
+
+6//I am the First Computer Virus ever known . You will find me in your head . My name is ……..? 
+   ---Brain--- ;          "you must know that :{Brain, the first PC virus, began infecting 5.2" floppy disks in 1986. As Securelist reports, it was the work of two brothers, Basit and Amjad Farooq Alvi, who ran a computer store in Pakistan The virus, which was also the first stealth virus, contained a hidden copyright message, but did not actually corrupt any data.}"
+
+7//I am an Organization that releases the Top 10 Vulnerabilities in Application Security . I am ……? 
+   ---OWASP---;             "it means Open Web Application Security Project (OWASP)"
+   
+8//The art of hiding messages or information inside other image / text or data: 
+   ---Steganography---
+   
+9//A group or network of machines that are controlled by an attacker to do a certain task: 
+      ---Bot---;"What is a bot is a type of software application or script that performs tasks on command, allowing an attacker to take complete control remotely of an affected computer. A collection of these infected computers is known as a “botnet” and is controlled by the hacker or “bot-herder”."
+
+10//I am a linux distrubition with two versions one for Web Penetration Testing and the other for attacking smart grids. What is my smart grid distribution name ?
+    ---SamuraiSTFU--- ; "STFU means :Security Testing Framework for Utilities"
+    
+11//I am a linux distribution that has many tricks to do packet and traffic analysis. Who am I ? 
+   ---Packetrix---
+   
+11//Periodic Conference in many cities hosted by Trend Micro: ---CloudSec---
+
