@@ -1,5 +1,20 @@
-1// A hacker leaked the below hash online.Can you crack it to know the password of the CEO? 1ab566b9fa5c0297295743e7c2a6ec27: ---will in this situation, we must know the length of the code  (32element = MD5) ,(40element =SHA-1), (56 elements =SHA-2); you can use this website "www.dcode.fr", or the simple way it's write the hash in google and he will give you the reverse; for this question the solutions is : Iamtheflag---
-2// A hacker leaked the below hash online.Can you crack it to know the password of the CEO? the flag is the password Hash: 06f8aa28b9237866e3e289f18ade19e1736d809d: ---jrahyn+---
-3//__a
-__a 
+1// A hacker leaked the below hash online.Can you crack it to know the password of the CEO? 1ab566b9fa5c0297295743e7c2a6ec27: 
+---will in this situation, we must know the length of the code  (32element = MD5) ,(40element =SHA-1), (56 elements =SHA-2); 
+you can use this website "www.dcode.fr", or the simple way it's write the hash in google and he will give you the reverse; 
+for this question the solutions is : Iamtheflag
+---
+
+
+2// A hacker leaked the below hash online.Can you crack it to know the password of the CEO? the flag is the password Hash: 06f8aa28b9237866e3e289f18ade19e1736d809d: 
+---       jrahyn+      ---
+
+
+3//we got this corrupted hash password from a Pcap file with a note (password = sha-1(hash-result)).
+HASH:77be5d24ed2e3e590045e1d6o7e84i50d2799c19f48ede46804a8734e287df120f 
+---First of all you count the number of element in your code you will find 67 and that it is not possible;
+So move to see if they are something in your code that shoudn't exist;
+you will see a 'i' and a 'o' because we know in a hash we have number from 0 to 9 and character from a to f , so we delete the 'i' and the 'o';
+Than we can put it in the web we  can see that is a md5 hash , after a reverse hash we find the code s3cr3tpassword;
+but the flag is the sha-1 of the hash so we find the flag : 83874343435092cb681c0d558a84bfeb389c32ed
+---
 
