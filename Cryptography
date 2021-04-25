@@ -1,3 +1,5 @@
 1// A hacker leaked the below hash online.Can you crack it to know the password of the CEO? 1ab566b9fa5c0297295743e7c2a6ec27: ---will in this situation, we must know the length of the code  (32element = MD5) ,(40element =SHA-1), (56 elements =SHA-2); you can use this website "www.dcode.fr", or the simple way it's write the hash in google and he will give you the reverse; for this question the solutions is : Iamtheflag---
 2// A hacker leaked the below hash online.Can you crack it to know the password of the CEO? the flag is the password Hash: 06f8aa28b9237866e3e289f18ade19e1736d809d: ---jrahyn+---
-3//
+3//__a
+__a 
+
