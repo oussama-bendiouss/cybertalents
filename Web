@@ -6,3 +6,20 @@
 you will see two script , the second script is encoded in ascii-hexa , you can use this website to decoded http://ddecode.com/hexdecoder/
 after that you can read your code and it's clear that you have a list with five elements , and a if else condition bloc, you can read it and undertand that password = username = Cyber-Talent
 try to put and than you will find the flag : {J4V4_Scr1Pt_1S_Aw3s0me}
+
+3### Who i am ?
+Do not Start a fight you can not stop it
+Link:
+http://34.76.107.218/whoami/
+---
+*first of all to past this challenge you must use either Firefox or Burp suite , for us we will use Firefox, open the inspector and than read the code you will see a password and username , it's Guest et Guest , use it and  you will see a message that tell you , it is not  the adminstrator account 
+*move to storage in Firefox  you will see a cookies with name Authentification and with a value = bG9naW49R3Vlc3Q%3D, it's clear it is a 64encode, use this website to decode https://www.base64decode.net/, and than you will see login=Guest7, change it to login=admin, and decode it with this website https://www.base64encode.net/, you will find bG9naW49YWRtaW4=  
+*than put it instead of the old expression and refresh the page and you will find the flag :      FLag{B@D_4uTh1Nt1C4Ti0n}
+---
+
+4###Iam Legend
+If I am a legend, then why am I so lonely? Flag Format : FLAG{} Link:http://35.193.45.56/iamlegend/
+First of all open the inspector and read the code; you can focus on the script;he is a big code with a JSFUCK obfuscation, it is a code written with just 6 character []()+! , so it's a code but it's written with 6 character to be difficult to understand it;
+You can use the website https://filipemgs.github.io/poisonjs/ to decode the code (notice that you mast be carful to space); 
+than you will find you javascript code with the function check , and after read it you will understand (user = Cyber , pass = Talent); and you will find the flag : {J4V4_Scr1Pt_1S_S0_D4MN_FUN}");}
+----
