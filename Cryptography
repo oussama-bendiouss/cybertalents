@@ -18,12 +18,3 @@ Than we can put it in the web we  can see that is a md5 hash , after a reverse h
 but the flag is the sha-1 of the hash so we find the flag : 83874343435092cb681c0d558a84bfeb389c32ed
 ---
 
-### Who i am ?
-Do not Start a fight you can not stop it
-Link:
-http://34.76.107.218/whoami/
----
-*first of all to past this challenge you must use either Firefox or Burp suite , for us we will use Firefox, open the inspector and than read the code you will see a password and username , it's Guest et Guest , use it and  you will see a message that tell you , it is not  the adminstrator account 
-*move to storage in Firefox  you will see a cookies with name Authentification and with a value = bG9naW49R3Vlc3Q%3D, it's clear it is a 64encode, use this website to decode https://www.base64decode.net/, and than you will see login=Guest7, change it to login=admin, and decode it with this website https://www.base64encode.net/, you will find bG9naW49YWRtaW4=  
-*than put it instead of the old expression and refresh the page and you will find the flag :      FLag{B@D_4uTh1Nt1C4Ti0n}
----
