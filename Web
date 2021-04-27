@@ -23,3 +23,13 @@ First of all open the inspector and read the code; you can focus on the script;h
 You can use the website https://filipemgs.github.io/poisonjs/ to decode the code (notice that you mast be carful to space); 
 than you will find you javascript code with the function check , and after read it you will understand (user = Cyber , pass = Talent); and you will find the flag : {J4V4_Scr1Pt_1S_S0_D4MN_FUN}");}
 ----
+
+5 ###Searching for the cookie
+simple search website we need to know which cookie to eat ;)Link:http://34.77.37.110/searching-cookie/
+---
+First of all open the inspector and try to read the code; 
+After that we know, XSS attack is based to add a javascript code to an input form, so we try to use <script>alert('1')</script>, 
+but when we see the sorce code we know that they are a filter; 
+but if we read the script in head , we can see that we can closed the first script, so we use </script><script>alert("A");</script>, but at this moment they work,
+or the challenge it's about which cookies we must eat so we use </script><script>alert(document.cookie);</script> and you see the flag :    coolcookie112
+----
