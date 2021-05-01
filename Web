@@ -40,3 +40,12 @@ or the challenge it's about which cookies we must eat so we use </script><script
  Move to other methods, Firstly, We need to start with directory brute-force using dirsearch you can dowload it here: https://github.com/maurosoria/dirsearch; after that use this command  "python3 dirsearch.py -u 52.28.216.196/bean/", well may be he don't work so try with "py dirsearch.py -u 52.28.216.196/bean/", after that you will see a accessible file in /files ;try an Let’s try [nginx alias_traversal] you will learn more about it:https://github.com/yandex/gixy/blob/master/docs/en/plugins/aliastraversal.md, 
  so go to :http://52.28.216.196/bean/files../home/  and you will find the flag of the challenge : FLAG{Nginx_nOt_aLWays_sEcUre_bY_The_waY}
  ---
+7#Maximum Courage
+Max prefers to learn by practicing and not just reading all day, so he set up a webserver and hopes it stays secret, can you prove it has a weakness?Link:http://3.126.138.80/maximum/
+---
+first of all try to read the source code,you won't find anythings; than we well use the last script dirsearch, but it will be more easy for us to use kali linux for this challenge, so we use the command "dirb http://3.126.138.80/maximum/" so we can see the file .git and the index.php;
+Try with index.php but you won't find anything, so clone the .git with the command "wget -r http://3.126.138.80/maximum/.git/", than try to read each file;
+After that use "git status" to see if some file is modified soon, well you will see that flag.php is modified, write  "git restore flag.php", than you can see the flag: be607453caada6a05d00c0ea0057f733
+---
+
+
