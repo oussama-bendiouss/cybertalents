@@ -48,4 +48,14 @@ Try with index.php but you won't find anything, so clone the .git with the comma
 After that use "git status" to see if some file is modified soon, well you will see that flag.php is modified, write  "git restore flag.php", than you can see the flag: be607453caada6a05d00c0ea0057f733
 ---
 
-
+8### The Restricted Sessions
+Flag is restricted to logged users only , can you be one of them.Link:http://34.77.37.110/restricted-sessions/
+---well like we do all time we begin by using inspector and tryiny to understandind the code and check if they are some script or special things in the source code, we can see the script in the bottom of the page so we try to see if they are a cookie, but we don't find . Use Burp, with the repeater you send a cookie with this line : "cookie : PHPSESSID =admin " and we try with different value but we have a message "Session not found in data/session_store.txt" , try to go to the "http://34.77.37.110/restricted-sessions/data/session_store.txt"
+you will find
+"iuqwhe23eh23kej2hd2u3h2k23
+11l3ztdo96ritoitf9fr092ru3
+ksjdlaskjd23ljd2lkjdkasdlk" 
+try to enter one of them as a value of cookie , try one after one nd you will see a message that Userinfo it's not correct, so no try to send a post request to know what is in the "getcurrentuserinfo.php", so you can use this request in the reapeter "POST /restricted-sessions/getcurrentuserinfo.php?PHPSESSID=iuqwhe23eh23kej2hd2u3h2k23 HTTP/1.1"
+You will receive an answer like this = "{"name":"john","email":.......}" the must impotant value is name, now we send it with the cookie like a userInfo value , "cookie:  PHPSESSID=iuqwhe23eh23kej2hd2u3h2k23;UserInfo=john"
+you will find the flag :  sessionareawesomebutifitsecure
+---
