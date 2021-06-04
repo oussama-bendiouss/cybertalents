@@ -111,4 +111,30 @@ Debian-based distribution with a collection of security and forensics tools. It 
 The flag without spaces
 ---KALILINUX---
 
-29//
+29//JPG Magic
+You are doing some file analysis and you need to verify the magic byte of JPEG image
+Do you know the first 2 bytes of JPEG format 
+Flag format: XX XX
+---FF D8---
+
+30//Hide me
+I act as a middle man to forward requests from different devices to access external resources . I am a ......?
+---proxy---
+
+31//security model
+is a model designed to guide policies for information security within an organization
+---CIA---
+
+32//Crime scene
+Process of analyzing and investing computer devices, on suspecting that such devices may have been used in a cybercrime
+---Forensics---
+
+33//one click
+a type of malicious exploit of a website where unauthorized commands are submitted from a user that the web application trusts .
+---CSRF---
+
+34//
+
+
+
+
