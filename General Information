@@ -6,10 +6,12 @@ I am a huge cyber security conference that run every year in three places : San 
 I am a cyber security conference that run in August every year in Las Vegas. I am the largest gathering for Hackers in the whole world. No Credit cards, no online booking , Only Cash allowed . Who am I ?: 
    ---defcon---
    
-3//I will lock your machine screen or files till you pay me. Who am i ?: 
+3//Pay Me
+I will lock your machine screen or files till you pay me. Who am i ?: 
    ---Ransomware---
    
-4//True or False , htmlentities ( convert special characters to its html entity ) can't be exploited to run XSS payload ?: 
+4//htmlentities
+True or False , htmlentities ( convert special characters to its html entity ) can't be exploited to run XSS payload ?: 
    ---False---
    
 5//Founder
@@ -28,16 +30,65 @@ I am an Organization that releases the Top 10 Vulnerabilities in Application Sec
 The art of hiding messages or information inside other image / text or data: 
    ---Steganography---
    
-9//A group or network of machines that are controlled by an attacker to do a certain task: 
+9//Robot
+A group or network of machines that are controlled by an attacker to do a certain task: 
       ---Bot---;"What is a bot is a type of software application or script that performs tasks on command, allowing an attacker to take complete control remotely of an affected computer. A collection of these infected computers is known as a “botnet” and is controlled by the hacker or “bot-herder”."
 
-10//I am a linux distrubition with two versions one for Web Penetration Testing and the other for attacking smart grids. What is my smart grid distribution name ?
+10//Japanese Warrior
+I am a linux distrubition with two versions one for Web Penetration Testing and the other for attacking smart grids. What is my smart grid distribution name ?
     ---SamuraiSTFU--- ; "STFU means :Security Testing Framework for Utilities"
     
-11//I am a linux distribution that has many tricks to do packet and traffic analysis. Who am I ? 
+11//Close Look
+I am a linux distribution that has many tricks to do packet and traffic analysis. Who am I ? 
    ---Packetrix---
    
-11//Periodic Conference in many cities hosted by Trend Micro: ---CloudSec---
+11//TrendMicro Conference
+Periodic Conference in many cities hosted by Trend Micro: ---CloudSec---
 
-12// Change code from one form to another to prevent attacker from understanding it : --- obfuscation ---
+12//Modify Code
+Change code from one form to another to prevent attacker from understanding it : --- obfuscation ---
+
+13//Intercept
+the attacker intercept information between receiver and sender. what is the attack name ?
+---MITM-----
+
+14//My box
+I am a professional pen tester. I do not need to know any information from the customer, I do ....box pen test
+----black---
+
+15//Crash
+enter a lot of random trash till the application crash
+---Fuzzing---
+
+16//Scan
+One of the famous, free port scanner. Who am i ?
+---NMAP---
+
+17//Capture
+Network analysis tool used to captured packets and present it in readable format
+---Wireshark---
+
+18//Precious Vulnerability
+a security flaw that is not yet known
+---Zeroday---
+
+19//Encoding
+What type of this encoded , hashed text "aGVsbG93b3JsZDEx" ?
+---base64---
+
+20//remove
+I need to remove a file called secret in my home directory. which command should i use 
+---rm ~/secret ---
+
+21//Reward
+I receive a reward or mentioned on a wall of fame when i found vulnerability . I am participating in ..... program? Format of Flag ( Do not use spaces)
+---bugbounty---
+
+22//User Name
+He is a user name or account that by default has access to all commands and files on a Linux or other Unix-like operating system.
+---root---
+
+23//
+
+
 
