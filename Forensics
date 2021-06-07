@@ -1,4 +1,5 @@
 ###1//linuxcmd-101
+
 In this challenge you will learn a lot about linux commande.
  _ First of all you must download the zip and put it in you kali linux machine
  _ Then you must extract the file. Well your file have .tar.gz as a extention, to extract the file you must use  "gzip -d linux-chal.tar.gz" and after that use "tar -xf linux-chal.tar "
@@ -8,4 +9,8 @@ In this challenge you will learn a lot about linux commande.
  _ Now, you must start by identify the type of files using "file *", and you can se one different file, cat it and you will find the new password, it's the file f6 and the password is "rryuiytqpyuiqyofdkhsjhfewojnhfdss".
  _ Unzip the next directory, and try to see if some of the file have a relation with the name of the size37 directory, use "ls -l" and you will see the test5 their size is exactly 37KB so he contain the pâssword and the pass is "62094n902m2x-28mx4t9xy282y49ty9824yt"
  _ You have a file with the name nexttocybertalents, so try to cat it and you will find a lot of data, so search if we have cybertalents in some places use "cat nexttocybertalents| grep cybertalents" so the file name is nexttocybertalents so the password is the second part of the word cybertalentsorderby1337 so the pass is "orderby1337"
- _ Unzip the next fiel with th last pass, and we well use zip2john tools ["Zip2john" is a tool with what we can extract the hash of the zip password and use a dictionary which contains a lot of possibility passwords and if among them there are the right password they say it to you]. So use the cmd "zip2john 
+ _ Unzip the next fiel with th last pass, and we well use zip2john tools ["Zip2john" is a tool with what we can extract the hash of the zip password and use a dictionary which contains a lot of possibility passwords and if among them there are the right password they say it to you]. So use the cmd "zip2john decodeme1.zip| tee a" after that use "john a --wordlist= ./One" and you will find the password is "infrastructure"
+ _ Now unzip the file, cat the pass file you will find "dXNlbWVhc3Bhc3N3b3Jk" it is encoded by base64 code, so you must decode, you can use "https://www.base64decode.org/" it is a online website to do that, and you will find the pass", or use the cmd in the linux "base64 -d pass" and you will find the pass "usemeaspassword"
+ _ Now unzip the last file, you find the flag file cat it and you will find "synt{f1zcyr_yvahk_101}",  but the flag is encrypted with rot13 encryption using command"cat flag.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'" you can reverse the encryption and get the original flag 
+   
+   the flag is:                     --- flag{s1mple_linux_101} ---
