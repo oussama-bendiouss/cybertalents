@@ -9,7 +9,8 @@ for this question the solutions is : Iamtheflag
 ---       jrahyn+      ---
 
 
-3//we got this corrupted hash password from a Pcap file with a note (password = sha-1(hash-result)).
+3//Hash3rror
+we got this corrupted hash password from a Pcap file with a note (password = sha-1(hash-result)).
 HASH:77be5d24ed2e3e590045e1d6o7e84i50d2799c19f48ede46804a8734e287df120f 
 ---First of all you count the number of element in your code you will find 67 and that it is not possible;
 So move to see if they are something in your code that shoudn't exist;
