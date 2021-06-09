@@ -1,0 +1,7 @@
+###1// Invincible
+Our threat intelligence team has noticed suspicious behavior from the user sanzomeno can you trace him and find what he is trying to hide.
+
+_ Well you must use a open source application, it is sherlock "https://github.com/sherlock-project/sherlock", or you can use the website "https://namecheckup.com/", to look for the username "sanzomeno".
+_ If you use sherlock the cmd is "python3 sherlock.py sanzomeno" after that you will see a lot of account in different wwebsite, after you try them one by one you will find the good websites is "https://about.me/sanzomeno", but the flag is deleted
+_ You can use the website "https://archive.org/web/" to look for an old version of the page , and then you will find the flag 
+               ---"FLAG{4rch1v3_Usu4LLy_C0nt41n_Us3fuL_1nf0rm4t10n}"---
