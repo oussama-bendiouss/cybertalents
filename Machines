@@ -1,0 +1,8 @@
+1// Open Doors
+How Many ports under 1000 opened in the targets 
+Target IP: 35.156.4.248
+flag md5(ports)
+--- it so easy to solve this challenge, you will just use nmap to scan the target, use 'nmap 35.156.4.248 -p-' to scan all the port, than select the port under 1000, count the number of port you will find 2 , than use the md5 hash, you can use online website or your kali linux machine with the command 'echo -n 2|md5sum' you will find the flag : --- c81e728d9d4c2f636f067f89cc14862c ---
+ ---
+ 
+ 
