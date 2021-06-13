@@ -68,6 +68,13 @@ First of all read the source code, after that because we are in an injection cha
 the fag is :  ---hgdr64.backup.tar.gz---
 ---
 
-
-
+10### Hashable
+A famous enterprise blog was hacked, can you figure out how it was hacked?
+Link:http://ec2-35-158-236-11.eu-central-1.compute.amazonaws.com/hashable/
+---
+we know that we are in an injection challenge, so let's try a simple injection, well we will use burp suite, first of all we search for some where to put a code , so we find the contact me. 
+TRy to send a message and send the request to repeater. So try to add ;ls; to your message you will see an error that we use the eval function, it syntaxe is eval(something here ,your data from message input field ,something here ).
+try to put test");echo test;//, ohhh it works, now inject your code test");system('ls');//  or use ;${system('ls')}, after that we see all directory now cat the flag file to see the flag , use the injection test;$system('cat flag_23894ABCX1.txt')} 
+we find the flag ---18ab51f960bd149bcb2497b9998c752c---
+---
 
