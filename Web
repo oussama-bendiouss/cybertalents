@@ -78,3 +78,11 @@ try to put test");echo test;//, ohhh it works, now inject your code test");syste
 we find the flag ---18ab51f960bd149bcb2497b9998c752c---
 ---
 
+11### Easy access
+Only superpower makes you see unlimited view.
+Link:http://ec2-35-158-236-11.eu-central-1.compute.amazonaws.com/easy-access/
+--- well first of all read the source code, you will find a username and a password , try it (bob , password), but it is not the good solution.
+You know that we are in a sql injection challenge, so let's try a simple sql injection, put ' in the password and username, you will receive a message from the database, so now we are sure there is an sql injection vulnerability, let's try :  'or'1'='1, but it dosn't work, but we now that only admin have access
+Try admin'or '1'='1     , after that you well have the flag: ---flag{!njection_3v3ry_wh3r3}---
+---
+
