@@ -5,4 +5,13 @@ flag md5(ports)
 --- it so easy to solve this challenge, you will just use nmap to scan the target, use 'nmap 35.156.4.248 -p-' to scan all the port, than select the port under 1000, count the number of port you will find 2 , than use the md5 hash, you can use online website or your kali linux machine with the command 'echo -n 2|md5sum' you will find the flag : --- c81e728d9d4c2f636f067f89cc14862c ---
  ---
  
- 
+2// hiden
+Can you find the hidden directory on the target web app
+Target IP: 3.67.198.136
+flag just directory name 
+---
+First of all scan the target 3.67.198.136 with nmap you can see the port 80 is open. Now you know that we must find the hidden directory, so we use a bruteforce tools( dirb, dirseaarch, Gobuster....) to do Bruteforce the directories. For example we will use dirb so we use the command 'dirb http://3.67.198.136 ', so we find the hidden file is secret so the flag is :
+---secret ---
+---
+
+3//
