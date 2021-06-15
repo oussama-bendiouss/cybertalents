@@ -14,3 +14,13 @@ In this challenge you will learn a lot about linux commande.
  _ Now unzip the last file, you find the flag file cat it and you will find "synt{f1zcyr_yvahk_101}",  but the flag is encrypted with rot13 encryption using command"cat flag.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'" you can reverse the encryption and get the original flag 
    
    the flag is:                     --- flag{s1mple_linux_101} ---
+
+### 2// Keep it Simple
+The answer is simple Link:http://35.225.187.108/Keep_it_Simple/
+---
+the first of all see the hint, hhhhhh keep it simple, keep calm and focus on basics, so go to the console to read the source code. You will remark two file eye with differnet extension, so you understand that one is hidden, try to see css file and you will find the hidden image
+well, we are in a meta-data challenge, so try to find some things inside the photo
+You can use strings name_of_photo, and look for some things likes flag, or use exiftool
+use the cmd exiftool the_image_name, and try to find some things like flag
+the flag is : --- {S1mpl3sty_i$_th_@nswer} ---
+---
