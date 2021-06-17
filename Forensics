@@ -24,3 +24,11 @@ You can use strings name_of_photo, and look for some things likes flag, or use e
 use the cmd exiftool the_image_name, and try to find some things like flag
 the flag is : --- {S1mpl3sty_i$_th_@nswer} ---
 ---
+
+### 3// I love Music
+listen and focus , you will listen another thing
+Link:https://s3-eu-west-1.amazonaws.com/hubchallenges/Forensics/love-music.wav
+---
+it is a very easy challenge. You can use many tools, i prefer https://academo.org/demos/spectrum-analyzer/. You can just upload the file in this website, and you will see the flag
+--- you_are_victorious! ---
+---
