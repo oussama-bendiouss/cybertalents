@@ -14,4 +14,15 @@ First of all scan the target 3.67.198.136 with nmap you can see the port 80 is o
 ---secret ---
 ---
 
-3//
+3// remote-CVE
+What’s CVE ID could be used against the web application in the below target
+Target IP1: 18.159.248.180
+Target IP2: 3.120.249.68
+Flag format CVE-xxxx-xxxx
+---
+To solve this challenge, you can began with an nmap scan, try to scan all ports with the command nmap 18.159.248.180 -Pn -sV -p - 
+After that we will use a kali lunix tool, it is searchsploit , whit this tool we can look for a sploit, well try to search for many think and when you look for HttpFileServer, you will find an exploit 
+To do that just use the synthaxe searchsploit HttpFileServer  , after that you will see the number of the file, use the command searchsploit -m number_of_file, then cat the file
+you will see the CVE number. So the flag is: 
+---CVE-2014-6287---
+---
