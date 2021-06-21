@@ -40,3 +40,18 @@ Link:https://hubchallenges.s3-eu-west-1.amazonaws.com/Forensics/bflag.pcap
 To solve this chalenge you need to use Wireshark, open the pcap file and look for http requests. 
 Right-click on any of the HTTP request and choose to follow stream -> TCP stream; will show the HTTP request and response related to this stream, after analyzing some streams we got the flag in HTTP get the request in-stream number 86 . The flag is: ---analyze_packet_for_fun---
 ---
+
+### 5//Cypher Anxiety
+An image was leaked from a babies store. the manager is so annoyed because he needs to identify the image to fire charges against the responsible employee. the key is the md5 of the image
+Link:https://s3-eu-west-1.amazonaws.com/talentchallenges/Forensics/find+the+image.zip
+---
+First of all try to analyse some requests you will know that their are a conversation here, so to read it just use the command strings nom_file.
+You will now, that you must listen to port 7070 and use cryptcat to decrypt with the password P@ssawordaya
+You must select the file in port 7070, use wireshark and filter with tcp.port == 7070, skip the syn requests than now follow a tcp stream you’ll find the stream on port 7070 is 5 and this is the only stream on port 7070
+Now change the data view type from ascii to raw and save it as a new file . Call it crypt
+So use to Terminal emulator, in one use the command 'cryptcat  -l -k P@ssawordaya -p 7070> decrypt' [ to listen to port 7070 with cryptcat and password and put the file in decrypt]
+In the other Terminal emulator use the command " nc localhost 7070< crypt "
+And you will have a image
+But the flag is the md5 of this image, so you can run command md5sum decrypt 
+the flag is --- 3beef06be834f3151309037dde4714ec ---
+---
