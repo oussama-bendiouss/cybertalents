@@ -55,3 +55,23 @@ And you will have a image
 But the flag is the md5 of this image, so you can run command md5sum decrypt 
 the flag is --- 3beef06be834f3151309037dde4714ec ---
 ---
+
+6###monaliza
+We cannot identify this suspicious user behavior, but we know he is a big fan of Monaliza
+ Link:https://hubchallenges.s3-eu-west-1.amazonaws.com/Forensics/monaliza.7z
+ 
+---
+We can begin by downwload the file than unzip it. ( use the command unzip file_name)
+After that you can try an easy things, it's cat the file with a grep ( filter), because in the cybertalents website we know the format of the flag  so write the command cat file_name| strings |grep -i flag {, you will find a flag, hhhhhhhhhh, it's not the correct but try to put it . 
+Next step,we will use a specifics tools who allow us to extract digital artifacts from volatile memory samples( to know more visit this website https://tools.kali.org/forensics/volatility). the name of the tools it's volatility.
+To install it in kali you can see this video it's really helpful (https://www.youtube.com/watch?v=cZw8ohxFDek) 
+After that you must know the system version use the command ./volatility_2.6_lin64_standalone -f ../../monaliza.mem imageinfo
+After that you must know the programs who are running when we take this snapshot use the command ./volatility_2.6_lin64_standalone -f ../../monaliza.mem pslist
+When the hint it's the person like monaliza, so we talk about image or video well we see a programs for image with the id 800, so to extract the file use the command /volatility_2.6_lin64_standalone -f ../../monaliza.mem memdump -p 800 -D.  (don't forget the .)
+After that change the extension, so use the command mv 800.dmp 800.data
+Than use gimp to read it (gimp 800.data)
+well we must look for the flag in some place here, i will give the good position (offset 65913  width 737  height 6446)
+than you find the flag.but the flag is flipped , so flip it again to become more readable  so the flag is ---FLAG{P@!nting_i5_4wes0m3} ---
+
+
+---
