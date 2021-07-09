@@ -20,3 +20,13 @@ Than we can put it in the web we  can see that is a md5 hash , after a reverse h
 but the flag is the sha-1 of the hash so we find the flag : 83874343435092cb681c0d558a84bfeb389c32ed
 ---
 
+
+4// LOUDER
+Can you decode the wired sounds? 
+Flag format: flag{X XX XXXXXXXX XXXXXX XXXX XXXXXX}
+Link:
+https://hubchallenges.s3-eu-west-1.amazonaws.com/Crypto/morse.wav
+---
+To solve this challenge you can use the website https://morsecode.world/international/decoder/audio-decoder-adaptive.html it is very helpful. So you must upload the file in the website and try many time to find a correct sentence. 
+You can change the WPM to 25 , so the flag is --- flag{I AM SPEAKING LOUDER THAN BEFORE} ---
+---
